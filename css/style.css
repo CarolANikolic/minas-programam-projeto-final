@@ -1,6 +1,43 @@
 body {
-    background-color: white
+    font-family: 'Open Sans', sans-serif;
 }
-.formacao {
-color: black
+li {
+    list-style: none;
+}   
+.menu {
+    background-color: #938DF8;
 }
+.menu a {
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.name {
+    font-weight: 700;
+    font-size: 36;
+    line-height: 33px;
+    color: #938DF8;
+}
+.subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line height: 23px;
+    color: #cccccc;
+}
+.aboutme {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+ section h1 {
+     font-size: 24px;
+     color: #49BFB3;
+ }
+ section h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #828282;
+ }

@@ -4,12 +4,20 @@
     <meta charset="UTF-8"/>
     <meta name="keywords" content="Caroline Almeida Nikolic, portfolio, editora de produção, escritora, programmer"/>
     <meta description="Portfólio de Caroline Almeida Nikolic"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfólio-Caroline Almeida Nikolic</title>
+    <!--link para connectar o arquivo css-->
     <link rel="stylesheet" href="css/style.css">
-    <title>Portfólio-GitHub</title>
+    <!--link para fontes for google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
 </head>
 <body>
-    <navbar>
+    <!--navegation bar-->
+    <nav class="menu">
         <ul>
             <li>
                 <a href="#formacao">Formação</a>
@@ -21,16 +29,20 @@
                 <a href="#contato">Contato</a>
             </li>
         </ul>
-    </navbar>
+    </nav>
+    <!--end of navegation bar-->
+    <!--about me-->
     <main>
         <figure>
             <img src="./images/nikolicphoto.jpg" alt="Foto de perfil da Caroline Almeida Nikolic" width="200px"/>
-            <h1>Caroline Almeida Nikolic</h1>
-            <h2>Editora de Produção</h2>
-            <p>Olá, meu nome é Caroline, mas você pode me chamar de Carol, mesmo sendo formada em Licenciatura em História, eu sou apaixonada por programação, desde que tive o primeiro contato com a criação de aplicativos na empresa startup em que trabalhei como Assistente de Marketing. Atualmente trabalho como Editora de Produção enquanto estudo e persuo o sonho de me tornar uma programadora.</p>
+            <h1 class="name">Caroline Almeida Nikolic</h1>
+            <h2 class="subtitle">Editora de Produção</h2>
+            <p class="aboutme">Olá, meu nome é Caroline, mas você pode me chamar de Carol, mesmo sendo formada em Licenciatura em História, eu sou apaixonada por programação, desde que tive o primeiro contato com a criação de aplicativos na empresa startup em que trabalhei como Assistente de Marketing. Atualmente trabalho como Editora de Produção enquanto estudo e persuo o sonho de me tornar uma programadora.</p>
         </figure>
     </main>
-    <section id="formacao">
+    <!--end of about me-->
+    <!--formacao, cursos e experiencia de trabalho-->
+    <section id="formacao" class="paragraph-style">
         <h1>Formação</h1>
         <ul class="formacao">
             <li>
@@ -67,7 +79,7 @@
             </li>
         </ul>
     </section>
-    <section id="experiencia">
+    <section id="experiencia" class="paragraph-style">
         <h1>Experiência</h1>
         <ul>
             <li>
@@ -101,6 +113,8 @@
             </li>
         </ul>
     </section>
+    <!--end of aboutformacao, cursos e experiencia de trabalho-->
+    <!--links para contato-->
     <footer id="contato">
         <div>
             <img src="./images/mail-icon.svg" alt="icone de email" width="15px">
@@ -115,6 +129,6 @@
                     <a href="https://github.com/CarolANikolic" target="_blank">GitHub</a>
                 </div>
     </footer>
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <!--links para contato-->
 </body>
 </html>
