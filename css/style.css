@@ -5,12 +5,15 @@ padding: 0;
 box-sizing: border-box;
 }
 /* fim do reset*/
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 li {
     list-style: none;
 }   
+
 .menu {
     background-color: #E3AA86;
     display: flex; /*cria um container flexivel que dara, consequentemente, flexibilidade para o posicionamento de seus filhos/elementos dentro do container*/
@@ -18,12 +21,14 @@ li {
     position:fixed; /* fixa o menu na parte superior da tela, mesmo quando we scroll, o menu estara fixo*/
     width: 100%; /* aumenta a barra menu para pegar toda a largura da tela*/
 }
+
 .lista-menu {
     display: flex;
     justify-content: space-evenly; /*define os espacos entre os itens*/
     width: 50%; /*essa propriedade com 50% faz com que o ul tenha metade do tamnho do menu*/
     padding: 20px; /*fornece preenchemento entre os elementos centrais e as bordas e margens do nav*/
 }
+
 .menu a {
 font-weight: 700;
 font-size: 18px;
@@ -31,27 +36,32 @@ line-height: 25px;
 color: #FFFFFF;
 text-decoration: none;
 }
+
 .intro {
     background-color: #EDEAEA;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 580px;
+    height: 620px;
     padding-top: 90px;
     text-align: center;
 }
+
 .intro figure {
     margin-bottom: 20px; /*configura espaco entre a parte de baixo da figura e o nome (h1)*/
 }
+
 .intro img{
-    border-radius: 50%;
+    border-radius: 30%;
 }
+
 .name {
     font-weight: 700;
     font-size: 36;
     line-height: 33px;
     color: #E3AA86;
 }
+
 .subtitle {
     font-weight: 700;
     font-size: 24px;
@@ -59,6 +69,7 @@ text-decoration: none;
     color: #cccccc;
     margin-bottom: 20px;
 }
+
 .aboutme {
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
@@ -72,41 +83,50 @@ text-decoration: none;
     margin: 0 auto;
     padding: 70px 0;/*preenche, da mais espaco (50px na parte de cima e de baixo das sections Formacao e Experiencia, e 0px de preenchimento ou seja, nada, do lado esquerdo e direito*/
 }
+
 #experiencia {
     background-color: #EDEAEA; 
 }
+
  section h1 {
      font-size: 24px;
      color: #2D150D;
      margin-right: 30px;
  }
+
  section h4 {
     font-weight: 700;
     font-size: 16px;
     color: #828282;
  }
+
  .item {
      margin-bottom: 30px;
  }
+
  section h4 a {
     font-weight: 700;
     font-size: 16px;
     color: #828282;
  }
+
  section a {
     font-weight: 400;
     font-size: 14px;
  }
+
  section p {
     font-weight: 400;
     font-size: 14px;
     color: #000000;
  }
+
  #experiencia h5 {
     font-weight: 400;
     font-size: 16px;
     color: #787777;
  }
+
  #contato {
     background-color: #E3AA86;
     font-weight: 700;
@@ -119,10 +139,12 @@ text-decoration: none;
     flex-direction: column;
     justify-content: space-between;
  }
+
  #contato a {
      color: #FFFFFF;
      text-decoration: none;
  }
+
 #contato img {
     padding-right: 5px;
 }
