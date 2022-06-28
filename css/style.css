@@ -51,7 +51,7 @@ text-decoration: none;
     margin-bottom: 20px; /*configura espaco entre a parte de baixo da figura e o nome (h1)*/
 }
 
-.intro img{
+.intro img {
     border-radius: 30%;
 }
 
@@ -65,9 +65,10 @@ text-decoration: none;
 .subtitle {
     font-weight: 700;
     font-size: 24px;
-    line height: 23px;
-    color: #cccccc;
+    line-height: 23px;
+    color: #787777;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .aboutme {
